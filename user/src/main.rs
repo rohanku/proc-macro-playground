@@ -1,4 +1,4 @@
-use macros::my_attr_macro;
+use lib_crate::my_attr_macro;
 
 #[my_attr_macro]
 fn main() {

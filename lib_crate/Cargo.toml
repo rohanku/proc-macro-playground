@@ -1,0 +1,8 @@
+[package]
+name = "lib_crate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib_crate_macros = { version = "0.1.0", path = "../lib_crate_macros" }
+

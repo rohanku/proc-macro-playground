@@ -1,6 +1,7 @@
 [workspace]
 
+resolver = "2"
+
 members = [
-    "code",
-    "macros",
+    "lib_crate", "lib_crate_macros", "user"
 ]

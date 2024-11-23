@@ -3,14 +3,14 @@
 version = 3
 
 [[package]]
-name = "code"
+name = "lib_crate"
 version = "0.1.0"
 dependencies = [
- "macros",
+ "lib_crate_macros",
 ]
 
 [[package]]
-name = "macros"
+name = "lib_crate_macros"
 version = "0.1.0"
 dependencies = [
  "proc-macro2",
@@ -52,3 +52,10 @@ name = "unicode-ident"
 version = "1.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3354b9ac3fae1ff6755cb6db53683adb661634f67557942dea4facebec0fee4b"
+
+[[package]]
+name = "user"
+version = "0.1.0"
+dependencies = [
+ "lib_crate",
+]
